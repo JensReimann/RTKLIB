@@ -35,7 +35,7 @@ win32 {
         RTKLIB =../../src/release/libRTKLib.a
     }
 
-    LIBS+= $${RTKLIB} -lWs2_32 -lwinmm
+    LIBS+= $${RTKLIB} -lws2_32 -lwinmm
 }
 
 PRE_TARGETDEPS = $${RTKLIB}
