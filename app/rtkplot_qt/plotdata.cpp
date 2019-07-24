@@ -12,6 +12,8 @@
 #include <QXmlStreamWriter>
 #include <QFileInfo>
 
+#include <locale.h>
+
 #include "rtklib.h"
 #include "plotmain.h"
 #include "mapdlg.h"
